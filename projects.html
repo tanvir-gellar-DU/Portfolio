@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar" aria-label="Main navigation">
+    <div class="sidebar-inner">
+      <h1 class="logo">Mahmudul Hasan Tanvir</h1>
+      <nav class="nav" role="navigation">
+        <a class="nav-link" href="/index.html" rel="noopener">About</a>
+        <a class="nav-link" href="/projects.html" rel="noopener">Projects</a>
+        <a class="nav-link" href="/skills.html" rel="noopener">Skills</a>
+        <a class="nav-link" href="/experience.html" rel="noopener">Experience</a>
+        <a class="nav-link" href="/education.html" rel="noopener">Education</a>
+        <a class="nav-link" href="/contact.html" rel="noopener">Contact</a>
+      </nav>
+
+      <div class="sidebar-actions">
+        <a class="muted" href="resume.pdf" download>Download resume</a>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main-content container">
+    <section id="projects">
+      <h2>Projects</h2>
+      <p class="muted">A selection of recent work.</p>
+      <div class="projects-grid">
+        <article class="card project-card" data-title="POS-App" data-desc="Developed a Java-based POS application with a modular architecture, enabling robust management of sales, order history, and reporting features. Implemented design patterns such as Command (for automated database backups) and Bridge (for flexible report generation and export in multiple formats). Utilized JavaFX and FXML for a responsive user interface, and integrated SQLite via JDBC for persistent data storage." data-stack="Java, JavaFX" data-link="https://github.com/tanvir-gellar-DU/POS-App/tree/master">
+          <div class="project-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 3H21V21H3V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 9H15V15H9V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 9H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 3V21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="project-header">
+              <h4>POS-App</h4>
+              <span class="project-date">May 2025 – August 2025</span>
+            </div>
+            <p class="project-description">Developed a Java-based POS application with a modular architecture, enabling robust management of sales, order history, and reporting features.</p>
+            <ul class="project-features">
+              <li>Implemented Command pattern for automated database backups</li>
+              <li>Used Bridge pattern for flexible report generation and export</li>
+              <li>Built responsive UI with JavaFX and FXML</li>
+              <li>Integrated SQLite via JDBC for persistent data storage</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">JavaFX</span>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/tanvir-gellar-DU/POS-App/tree/master" class="link-btn" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card" data-title="AST Builder :C edition" data-desc="Developed a C++ program to generate Abstract Syntax Trees (ASTs) for source code, enabling detailed structural representation of programming constructs. Implemented lexical analysis and parsing techniques to tokenize code and construct hierarchical syntax trees representing function definitions, expressions, and control structures. Designed modular components such as tokenizer, parser, and tree visualizer to ensure scalability and maintainability." data-stack="C, C++" data-link="https://github.com/tanvir-gellar-DU/SPL_1">
+          <div class="project-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="project-header">
+              <h4>AST Builder :C edition</h4>
+              <span class="project-date">November 2024 – March 2025</span>
+            </div>
+            <p class="project-description">Developed a C++ program to generate Abstract Syntax Trees (ASTs) for source code, enabling detailed structural representation of programming constructs.</p>
+            <ul class="project-features">
+              <li>Implemented lexical analysis and parsing techniques</li>
+              <li>Tokenized code and constructed hierarchical syntax trees</li>
+              <li>Represents function definitions, expressions, and control structures</li>
+              <li>Designed modular components: tokenizer, parser, and tree visualizer</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">C</span>
+              <span class="tech-badge">C++</span>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/tanvir-gellar-DU/SPL_1" class="link-btn" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© "Your Name" — Built with care.</small>
+    </div>
+  </footer>
+
+  <!-- Modal for project details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <h4 id="modal-title"></h4>
+      <p id="modal-desc"></p>
+      <p class="modal-meta"><strong>Stack:</strong> <span id="modal-stack"></span></p>
+      <p><a id="modal-link" class="btn" href="#" rel="noopener">Open project</a></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
